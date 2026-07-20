@@ -1,12 +1,9 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
-    <main>
-      <h1>Home Page!</h1>
-      <Link href="/blog">Blog</Link>
-      <Link href="/products">Products</Link>
-      <Link href="/about">About</Link>
-    </main>
+    <div className="min-h-screen bg-red-600 flex items-center justify-center">
+      <h1 className="text-6xl font-bold text-white">
+        Hello Tailwind
+      </h1>
+    </div>
   );
 }
